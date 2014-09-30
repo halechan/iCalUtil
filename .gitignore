@@ -2,7 +2,6 @@
 xcuserdata
 DerivedData
 xcshareddata
-build.sh
 build
 iCalUtil.framework
 iCal/libical
