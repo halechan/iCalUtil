@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2977FB0819DA59C100AA44BD /* caldate.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAC419DA59C100AA44BD /* caldate.c */; };
+		2977FB0919DA59C100AA44BD /* icalarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAC619DA59C100AA44BD /* icalarray.c */; };
+		2977FB0A19DA59C100AA44BD /* icalattach.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAC819DA59C100AA44BD /* icalattach.c */; };
+		2977FB0B19DA59C100AA44BD /* icalcomponent.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FACB19DA59C100AA44BD /* icalcomponent.c */; };
+		2977FB0C19DA59C100AA44BD /* icalderivedparameter.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FACD19DA59C100AA44BD /* icalderivedparameter.c */; };
+		2977FB0D19DA59C100AA44BD /* icalderivedproperty.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FACF19DA59C100AA44BD /* icalderivedproperty.c */; };
+		2977FB0E19DA59C100AA44BD /* icalderivedvalue.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAD119DA59C100AA44BD /* icalderivedvalue.c */; };
+		2977FB0F19DA59C100AA44BD /* icalduration.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAD319DA59C100AA44BD /* icalduration.c */; };
+		2977FB1019DA59C100AA44BD /* icalenums.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAD519DA59C100AA44BD /* icalenums.c */; };
+		2977FB1119DA59C100AA44BD /* icalerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAD719DA59C100AA44BD /* icalerror.c */; };
+		2977FB1219DA59C100AA44BD /* icallangbind.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAD919DA59C100AA44BD /* icallangbind.c */; };
+		2977FB1319DA59C100AA44BD /* icalmemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FADB19DA59C100AA44BD /* icalmemory.c */; };
+		2977FB1419DA59C100AA44BD /* icalmime.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FADD19DA59C100AA44BD /* icalmime.c */; };
+		2977FB1519DA59C100AA44BD /* icalparameter.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FADF19DA59C100AA44BD /* icalparameter.c */; };
+		2977FB1619DA59C100AA44BD /* icalparameter_cxx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAE119DA59C100AA44BD /* icalparameter_cxx.cpp */; };
+		2977FB1719DA59C100AA44BD /* icalparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAE419DA59C100AA44BD /* icalparser.c */; };
+		2977FB1819DA59C100AA44BD /* icalperiod.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAE619DA59C100AA44BD /* icalperiod.c */; };
+		2977FB1919DA59C100AA44BD /* icalproperty.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAE819DA59C100AA44BD /* icalproperty.c */; };
+		2977FB1A19DA59C100AA44BD /* icalproperty_cxx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAEA19DA59C100AA44BD /* icalproperty_cxx.cpp */; };
+		2977FB1B19DA59C100AA44BD /* icalrecur.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAEC19DA59C100AA44BD /* icalrecur.c */; };
+		2977FB1C19DA59C100AA44BD /* icalrestriction.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAEE19DA59C100AA44BD /* icalrestriction.c */; };
+		2977FB1D19DA59C100AA44BD /* icaltime.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAF019DA59C100AA44BD /* icaltime.c */; };
+		2977FB1E19DA59C100AA44BD /* icaltimezone.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAF219DA59C100AA44BD /* icaltimezone.c */; };
+		2977FB1F19DA59C100AA44BD /* icaltypes.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAF519DA59C100AA44BD /* icaltypes.c */; };
+		2977FB2019DA59C100AA44BD /* icaltz-util.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAF719DA59C100AA44BD /* icaltz-util.c */; };
+		2977FB2119DA59C100AA44BD /* icalvalue.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAF919DA59C100AA44BD /* icalvalue.c */; };
+		2977FB2219DA59C100AA44BD /* icalvalue_cxx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAFB19DA59C100AA44BD /* icalvalue_cxx.cpp */; };
+		2977FB2319DA59C100AA44BD /* libicals_w32_vsnprintf_replacement.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FB0019DA59C100AA44BD /* libicals_w32_vsnprintf_replacement.c */; };
+		2977FB2419DA59C100AA44BD /* pvl.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FB0119DA59C100AA44BD /* pvl.c */; };
+		2977FB2519DA59C100AA44BD /* sspm.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FB0319DA59C100AA44BD /* sspm.c */; };
+		2977FB2619DA59C100AA44BD /* vcomponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2977FB0519DA59C100AA44BD /* vcomponent.cpp */; };
+		2977FB2919DA605C00AA44BD /* ical.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAC519DA59C100AA44BD /* ical.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB2A19DA606E00AA44BD /* icalarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAC719DA59C100AA44BD /* icalarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB2B19DA607900AA44BD /* icalattach.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAC919DA59C100AA44BD /* icalattach.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB2C19DA614900AA44BD /* icalcomponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FACC19DA59C100AA44BD /* icalcomponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB2D19DA615D00AA44BD /* icalderivedparameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FACE19DA59C100AA44BD /* icalderivedparameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB2E19DA616300AA44BD /* icalderivedproperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAD019DA59C100AA44BD /* icalderivedproperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB2F19DA616700AA44BD /* icalderivedvalue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAD219DA59C100AA44BD /* icalderivedvalue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3019DA61B800AA44BD /* icalduration.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAD419DA59C100AA44BD /* icalduration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3119DA61C100AA44BD /* icalenums.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAD619DA59C100AA44BD /* icalenums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3219DA61C800AA44BD /* icalerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAD819DA59C100AA44BD /* icalerror.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3319DA61DC00AA44BD /* icallangbind.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FADA19DA59C100AA44BD /* icallangbind.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3419DA628E00AA44BD /* icalmemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FADC19DA59C100AA44BD /* icalmemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3519DA628E00AA44BD /* icalmime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FADE19DA59C100AA44BD /* icalmime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3619DA628E00AA44BD /* icalparameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAE019DA59C100AA44BD /* icalparameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3719DA628E00AA44BD /* icalparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAE519DA59C100AA44BD /* icalparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3819DA628E00AA44BD /* icalperiod.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAE719DA59C100AA44BD /* icalperiod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3919DA628E00AA44BD /* icalproperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAE919DA59C100AA44BD /* icalproperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3A19DA628E00AA44BD /* icalrecur.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAED19DA59C100AA44BD /* icalrecur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3B19DA628E00AA44BD /* icalrestriction.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAEF19DA59C100AA44BD /* icalrestriction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3C19DA628E00AA44BD /* icaltime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAF119DA59C100AA44BD /* icaltime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3D19DA628E00AA44BD /* icaltimezone.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAF319DA59C100AA44BD /* icaltimezone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3E19DA628E00AA44BD /* icaltypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAF619DA59C100AA44BD /* icaltypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB3F19DA628F00AA44BD /* icaltz-util.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAF819DA59C100AA44BD /* icaltz-util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB4019DA628F00AA44BD /* icalvalue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FAFA19DA59C100AA44BD /* icalvalue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB4B19DA7A4600AA44BD /* NSDate+iCal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FB4919DA7A4600AA44BD /* NSDate+iCal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB4C19DA7A4600AA44BD /* NSDate+iCal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2977FB4A19DA7A4600AA44BD /* NSDate+iCal.m */; };
+		2977FB4F19DA7A6C00AA44BD /* NSTimeZone+iCal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FB4D19DA7A6C00AA44BD /* NSTimeZone+iCal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2977FB5019DA7A6C00AA44BD /* NSTimeZone+iCal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2977FB4E19DA7A6C00AA44BD /* NSTimeZone+iCal.m */; };
+		2977FB5319DA7C5D00AA44BD /* iCalUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FB5119DA7C5D00AA44BD /* iCalUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2977FAA819DA4A7C00AA44BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2977FAAA19DA4A7C00AA44BD /* libiCal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiCal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2977FAB519DA4A7C00AA44BD /* iCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2977FAB819DA4A7C00AA44BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2977FAC319DA59C100AA44BD /* astime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = astime.h; sourceTree = "<group>"; };
+		2977FAC419DA59C100AA44BD /* caldate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = caldate.c; sourceTree = "<group>"; };
+		2977FAC519DA59C100AA44BD /* ical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ical.h; sourceTree = "<group>"; };
+		2977FAC619DA59C100AA44BD /* icalarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalarray.c; sourceTree = "<group>"; };
+		2977FAC719DA59C100AA44BD /* icalarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalarray.h; sourceTree = "<group>"; };
+		2977FAC819DA59C100AA44BD /* icalattach.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalattach.c; sourceTree = "<group>"; };
+		2977FAC919DA59C100AA44BD /* icalattach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalattach.h; sourceTree = "<group>"; };
+		2977FACA19DA59C100AA44BD /* icalattachimpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalattachimpl.h; sourceTree = "<group>"; };
+		2977FACB19DA59C100AA44BD /* icalcomponent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalcomponent.c; sourceTree = "<group>"; };
+		2977FACC19DA59C100AA44BD /* icalcomponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalcomponent.h; sourceTree = "<group>"; };
+		2977FACD19DA59C100AA44BD /* icalderivedparameter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalderivedparameter.c; sourceTree = "<group>"; };
+		2977FACE19DA59C100AA44BD /* icalderivedparameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalderivedparameter.h; sourceTree = "<group>"; };
+		2977FACF19DA59C100AA44BD /* icalderivedproperty.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalderivedproperty.c; sourceTree = "<group>"; };
+		2977FAD019DA59C100AA44BD /* icalderivedproperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalderivedproperty.h; sourceTree = "<group>"; };
+		2977FAD119DA59C100AA44BD /* icalderivedvalue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalderivedvalue.c; sourceTree = "<group>"; };
+		2977FAD219DA59C100AA44BD /* icalderivedvalue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalderivedvalue.h; sourceTree = "<group>"; };
+		2977FAD319DA59C100AA44BD /* icalduration.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalduration.c; sourceTree = "<group>"; };
+		2977FAD419DA59C100AA44BD /* icalduration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalduration.h; sourceTree = "<group>"; };
+		2977FAD519DA59C100AA44BD /* icalenums.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalenums.c; sourceTree = "<group>"; };
+		2977FAD619DA59C100AA44BD /* icalenums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalenums.h; sourceTree = "<group>"; };
+		2977FAD719DA59C100AA44BD /* icalerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalerror.c; sourceTree = "<group>"; };
+		2977FAD819DA59C100AA44BD /* icalerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalerror.h; sourceTree = "<group>"; };
+		2977FAD919DA59C100AA44BD /* icallangbind.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icallangbind.c; sourceTree = "<group>"; };
+		2977FADA19DA59C100AA44BD /* icallangbind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icallangbind.h; sourceTree = "<group>"; };
+		2977FADB19DA59C100AA44BD /* icalmemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalmemory.c; sourceTree = "<group>"; };
+		2977FADC19DA59C100AA44BD /* icalmemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalmemory.h; sourceTree = "<group>"; };
+		2977FADD19DA59C100AA44BD /* icalmime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalmime.c; sourceTree = "<group>"; };
+		2977FADE19DA59C100AA44BD /* icalmime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalmime.h; sourceTree = "<group>"; };
+		2977FADF19DA59C100AA44BD /* icalparameter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalparameter.c; sourceTree = "<group>"; };
+		2977FAE019DA59C100AA44BD /* icalparameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalparameter.h; sourceTree = "<group>"; };
+		2977FAE119DA59C100AA44BD /* icalparameter_cxx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = icalparameter_cxx.cpp; sourceTree = "<group>"; };
+		2977FAE219DA59C100AA44BD /* icalparameter_cxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalparameter_cxx.h; sourceTree = "<group>"; };
+		2977FAE319DA59C100AA44BD /* icalparameterimpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalparameterimpl.h; sourceTree = "<group>"; };
+		2977FAE419DA59C100AA44BD /* icalparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalparser.c; sourceTree = "<group>"; };
+		2977FAE519DA59C100AA44BD /* icalparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalparser.h; sourceTree = "<group>"; };
+		2977FAE619DA59C100AA44BD /* icalperiod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalperiod.c; sourceTree = "<group>"; };
+		2977FAE719DA59C100AA44BD /* icalperiod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalperiod.h; sourceTree = "<group>"; };
+		2977FAE819DA59C100AA44BD /* icalproperty.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalproperty.c; sourceTree = "<group>"; };
+		2977FAE919DA59C100AA44BD /* icalproperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalproperty.h; sourceTree = "<group>"; };
+		2977FAEA19DA59C100AA44BD /* icalproperty_cxx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = icalproperty_cxx.cpp; sourceTree = "<group>"; };
+		2977FAEB19DA59C100AA44BD /* icalproperty_cxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalproperty_cxx.h; sourceTree = "<group>"; };
+		2977FAEC19DA59C100AA44BD /* icalrecur.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalrecur.c; sourceTree = "<group>"; };
+		2977FAED19DA59C100AA44BD /* icalrecur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalrecur.h; sourceTree = "<group>"; };
+		2977FAEE19DA59C100AA44BD /* icalrestriction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalrestriction.c; sourceTree = "<group>"; };
+		2977FAEF19DA59C100AA44BD /* icalrestriction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalrestriction.h; sourceTree = "<group>"; };
+		2977FAF019DA59C100AA44BD /* icaltime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icaltime.c; sourceTree = "<group>"; };
+		2977FAF119DA59C100AA44BD /* icaltime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icaltime.h; sourceTree = "<group>"; };
+		2977FAF219DA59C100AA44BD /* icaltimezone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icaltimezone.c; sourceTree = "<group>"; };
+		2977FAF319DA59C100AA44BD /* icaltimezone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icaltimezone.h; sourceTree = "<group>"; };
+		2977FAF419DA59C100AA44BD /* icaltimezoneimpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icaltimezoneimpl.h; sourceTree = "<group>"; };
+		2977FAF519DA59C100AA44BD /* icaltypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icaltypes.c; sourceTree = "<group>"; };
+		2977FAF619DA59C100AA44BD /* icaltypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icaltypes.h; sourceTree = "<group>"; };
+		2977FAF719DA59C100AA44BD /* icaltz-util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "icaltz-util.c"; sourceTree = "<group>"; };
+		2977FAF819DA59C100AA44BD /* icaltz-util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "icaltz-util.h"; sourceTree = "<group>"; };
+		2977FAF919DA59C100AA44BD /* icalvalue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icalvalue.c; sourceTree = "<group>"; };
+		2977FAFA19DA59C100AA44BD /* icalvalue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalvalue.h; sourceTree = "<group>"; };
+		2977FAFB19DA59C100AA44BD /* icalvalue_cxx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = icalvalue_cxx.cpp; sourceTree = "<group>"; };
+		2977FAFC19DA59C100AA44BD /* icalvalue_cxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalvalue_cxx.h; sourceTree = "<group>"; };
+		2977FAFD19DA59C100AA44BD /* icalvalueimpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalvalueimpl.h; sourceTree = "<group>"; };
+		2977FAFE19DA59C100AA44BD /* icalversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icalversion.h; sourceTree = "<group>"; };
+		2977FAFF19DA59C100AA44BD /* icptrholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icptrholder.h; sourceTree = "<group>"; };
+		2977FB0019DA59C100AA44BD /* libicals_w32_vsnprintf_replacement.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libicals_w32_vsnprintf_replacement.c; sourceTree = "<group>"; };
+		2977FB0119DA59C100AA44BD /* pvl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pvl.c; sourceTree = "<group>"; };
+		2977FB0219DA59C100AA44BD /* pvl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pvl.h; sourceTree = "<group>"; };
+		2977FB0319DA59C100AA44BD /* sspm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sspm.c; sourceTree = "<group>"; };
+		2977FB0419DA59C100AA44BD /* sspm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sspm.h; sourceTree = "<group>"; };
+		2977FB0519DA59C100AA44BD /* vcomponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vcomponent.cpp; sourceTree = "<group>"; };
+		2977FB0619DA59C100AA44BD /* vcomponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vcomponent.h; sourceTree = "<group>"; };
+		2977FB0719DA59C100AA44BD /* vsnprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vsnprintf.h; sourceTree = "<group>"; };
+		2977FB2719DA5A2A00AA44BD /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2977FB4919DA7A4600AA44BD /* NSDate+iCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+iCal.h"; sourceTree = "<group>"; };
+		2977FB4A19DA7A4600AA44BD /* NSDate+iCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+iCal.m"; sourceTree = "<group>"; };
+		2977FB4D19DA7A6C00AA44BD /* NSTimeZone+iCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+iCal.h"; sourceTree = "<group>"; };
+		2977FB4E19DA7A6C00AA44BD /* NSTimeZone+iCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+iCal.m"; sourceTree = "<group>"; };
+		2977FB5119DA7C5D00AA44BD /* iCalUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalUtil.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2977FAA719DA4A7C00AA44BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2977FAB219DA4A7C00AA44BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2977FAA119DA4A7C00AA44BD = {
+			isa = PBXGroup;
+			children = (
+				2977FAAC19DA4A7C00AA44BD /* iCal */,
+				2977FAB619DA4A7C00AA44BD /* iCalTests */,
+				2977FAAB19DA4A7C00AA44BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2977FAAB19DA4A7C00AA44BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2977FAAA19DA4A7C00AA44BD /* libiCal.a */,
+				2977FAB519DA4A7C00AA44BD /* iCalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2977FAAC19DA4A7C00AA44BD /* iCal */ = {
+			isa = PBXGroup;
+			children = (
+				2977FAC219DA59C100AA44BD /* src */,
+				2977FB4919DA7A4600AA44BD /* NSDate+iCal.h */,
+				2977FB4A19DA7A4600AA44BD /* NSDate+iCal.m */,
+				2977FB4D19DA7A6C00AA44BD /* NSTimeZone+iCal.h */,
+				2977FB4E19DA7A6C00AA44BD /* NSTimeZone+iCal.m */,
+				2977FB5119DA7C5D00AA44BD /* iCalUtil.h */,
+			);
+			path = iCal;
+			sourceTree = "<group>";
+		};
+		2977FAB619DA4A7C00AA44BD /* iCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				2977FAB719DA4A7C00AA44BD /* Supporting Files */,
+			);
+			path = iCalTests;
+			sourceTree = "<group>";
+		};
+		2977FAB719DA4A7C00AA44BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2977FAB819DA4A7C00AA44BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2977FAC219DA59C100AA44BD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2977FB2719DA5A2A00AA44BD /* config.h */,
+				2977FAC319DA59C100AA44BD /* astime.h */,
+				2977FAC419DA59C100AA44BD /* caldate.c */,
+				2977FAC519DA59C100AA44BD /* ical.h */,
+				2977FAC619DA59C100AA44BD /* icalarray.c */,
+				2977FAC719DA59C100AA44BD /* icalarray.h */,
+				2977FAC819DA59C100AA44BD /* icalattach.c */,
+				2977FAC919DA59C100AA44BD /* icalattach.h */,
+				2977FACA19DA59C100AA44BD /* icalattachimpl.h */,
+				2977FACB19DA59C100AA44BD /* icalcomponent.c */,
+				2977FACC19DA59C100AA44BD /* icalcomponent.h */,
+				2977FACD19DA59C100AA44BD /* icalderivedparameter.c */,
+				2977FACE19DA59C100AA44BD /* icalderivedparameter.h */,
+				2977FACF19DA59C100AA44BD /* icalderivedproperty.c */,
+				2977FAD019DA59C100AA44BD /* icalderivedproperty.h */,
+				2977FAD119DA59C100AA44BD /* icalderivedvalue.c */,
+				2977FAD219DA59C100AA44BD /* icalderivedvalue.h */,
+				2977FAD319DA59C100AA44BD /* icalduration.c */,
+				2977FAD419DA59C100AA44BD /* icalduration.h */,
+				2977FAD519DA59C100AA44BD /* icalenums.c */,
+				2977FAD619DA59C100AA44BD /* icalenums.h */,
+				2977FAD719DA59C100AA44BD /* icalerror.c */,
+				2977FAD819DA59C100AA44BD /* icalerror.h */,
+				2977FAD919DA59C100AA44BD /* icallangbind.c */,
+				2977FADA19DA59C100AA44BD /* icallangbind.h */,
+				2977FADB19DA59C100AA44BD /* icalmemory.c */,
+				2977FADC19DA59C100AA44BD /* icalmemory.h */,
+				2977FADD19DA59C100AA44BD /* icalmime.c */,
+				2977FADE19DA59C100AA44BD /* icalmime.h */,
+				2977FADF19DA59C100AA44BD /* icalparameter.c */,
+				2977FAE019DA59C100AA44BD /* icalparameter.h */,
+				2977FAE119DA59C100AA44BD /* icalparameter_cxx.cpp */,
+				2977FAE219DA59C100AA44BD /* icalparameter_cxx.h */,
+				2977FAE319DA59C100AA44BD /* icalparameterimpl.h */,
+				2977FAE419DA59C100AA44BD /* icalparser.c */,
+				2977FAE519DA59C100AA44BD /* icalparser.h */,
+				2977FAE619DA59C100AA44BD /* icalperiod.c */,
+				2977FAE719DA59C100AA44BD /* icalperiod.h */,
+				2977FAE819DA59C100AA44BD /* icalproperty.c */,
+				2977FAE919DA59C100AA44BD /* icalproperty.h */,
+				2977FAEA19DA59C100AA44BD /* icalproperty_cxx.cpp */,
+				2977FAEB19DA59C100AA44BD /* icalproperty_cxx.h */,
+				2977FAEC19DA59C100AA44BD /* icalrecur.c */,
+				2977FAED19DA59C100AA44BD /* icalrecur.h */,
+				2977FAEE19DA59C100AA44BD /* icalrestriction.c */,
+				2977FAEF19DA59C100AA44BD /* icalrestriction.h */,
+				2977FAF019DA59C100AA44BD /* icaltime.c */,
+				2977FAF119DA59C100AA44BD /* icaltime.h */,
+				2977FAF219DA59C100AA44BD /* icaltimezone.c */,
+				2977FAF319DA59C100AA44BD /* icaltimezone.h */,
+				2977FAF419DA59C100AA44BD /* icaltimezoneimpl.h */,
+				2977FAF519DA59C100AA44BD /* icaltypes.c */,
+				2977FAF619DA59C100AA44BD /* icaltypes.h */,
+				2977FAF719DA59C100AA44BD /* icaltz-util.c */,
+				2977FAF819DA59C100AA44BD /* icaltz-util.h */,
+				2977FAF919DA59C100AA44BD /* icalvalue.c */,
+				2977FAFA19DA59C100AA44BD /* icalvalue.h */,
+				2977FAFB19DA59C100AA44BD /* icalvalue_cxx.cpp */,
+				2977FAFC19DA59C100AA44BD /* icalvalue_cxx.h */,
+				2977FAFD19DA59C100AA44BD /* icalvalueimpl.h */,
+				2977FAFE19DA59C100AA44BD /* icalversion.h */,
+				2977FAFF19DA59C100AA44BD /* icptrholder.h */,
+				2977FB0019DA59C100AA44BD /* libicals_w32_vsnprintf_replacement.c */,
+				2977FB0119DA59C100AA44BD /* pvl.c */,
+				2977FB0219DA59C100AA44BD /* pvl.h */,
+				2977FB0319DA59C100AA44BD /* sspm.c */,
+				2977FB0419DA59C100AA44BD /* sspm.h */,
+				2977FB0519DA59C100AA44BD /* vcomponent.cpp */,
+				2977FB0619DA59C100AA44BD /* vcomponent.h */,
+				2977FB0719DA59C100AA44BD /* vsnprintf.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2977FB2819DA601E00AA44BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2977FB2919DA605C00AA44BD /* ical.h in Headers */,
+				2977FB2B19DA607900AA44BD /* icalattach.h in Headers */,
+				2977FB2A19DA606E00AA44BD /* icalarray.h in Headers */,
+				2977FB2C19DA614900AA44BD /* icalcomponent.h in Headers */,
+				2977FB3419DA628E00AA44BD /* icalmemory.h in Headers */,
+				2977FB3519DA628E00AA44BD /* icalmime.h in Headers */,
+				2977FB3619DA628E00AA44BD /* icalparameter.h in Headers */,
+				2977FB3719DA628E00AA44BD /* icalparser.h in Headers */,
+				2977FB3819DA628E00AA44BD /* icalperiod.h in Headers */,
+				2977FB3919DA628E00AA44BD /* icalproperty.h in Headers */,
+				2977FB3A19DA628E00AA44BD /* icalrecur.h in Headers */,
+				2977FB3B19DA628E00AA44BD /* icalrestriction.h in Headers */,
+				2977FB3C19DA628E00AA44BD /* icaltime.h in Headers */,
+				2977FB3D19DA628E00AA44BD /* icaltimezone.h in Headers */,
+				2977FB3E19DA628E00AA44BD /* icaltypes.h in Headers */,
+				2977FB3F19DA628F00AA44BD /* icaltz-util.h in Headers */,
+				2977FB4019DA628F00AA44BD /* icalvalue.h in Headers */,
+				2977FB3319DA61DC00AA44BD /* icallangbind.h in Headers */,
+				2977FB3219DA61C800AA44BD /* icalerror.h in Headers */,
+				2977FB3119DA61C100AA44BD /* icalenums.h in Headers */,
+				2977FB3019DA61B800AA44BD /* icalduration.h in Headers */,
+				2977FB2F19DA616700AA44BD /* icalderivedvalue.h in Headers */,
+				2977FB4F19DA7A6C00AA44BD /* NSTimeZone+iCal.h in Headers */,
+				2977FB4B19DA7A4600AA44BD /* NSDate+iCal.h in Headers */,
+				2977FB2E19DA616300AA44BD /* icalderivedproperty.h in Headers */,
+				2977FB5319DA7C5D00AA44BD /* iCalUtil.h in Headers */,
+				2977FB2D19DA615D00AA44BD /* icalderivedparameter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2977FAA919DA4A7C00AA44BD /* iCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2977FABB19DA4A7C00AA44BD /* Build configuration list for PBXNativeTarget "iCal" */;
+			buildPhases = (
+				2977FAA619DA4A7C00AA44BD /* Sources */,
+				2977FAA719DA4A7C00AA44BD /* Frameworks */,
+				2977FAA819DA4A7C00AA44BD /* CopyFiles */,
+				2977FB2819DA601E00AA44BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCal;
+			productName = iCal;
+			productReference = 2977FAAA19DA4A7C00AA44BD /* libiCal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2977FAB419DA4A7C00AA44BD /* iCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2977FABE19DA4A7C00AA44BD /* Build configuration list for PBXNativeTarget "iCalTests" */;
+			buildPhases = (
+				2977FAB119DA4A7C00AA44BD /* Sources */,
+				2977FAB219DA4A7C00AA44BD /* Frameworks */,
+				2977FAB319DA4A7C00AA44BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCalTests;
+			productName = iCalTests;
+			productReference = 2977FAB519DA4A7C00AA44BD /* iCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2977FAA219DA4A7C00AA44BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "PapayaMobile Inc.";
+				TargetAttributes = {
+					2977FAA919DA4A7C00AA44BD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2977FAB419DA4A7C00AA44BD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2977FAA519DA4A7C00AA44BD /* Build configuration list for PBXProject "iCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2977FAA119DA4A7C00AA44BD;
+			productRefGroup = 2977FAAB19DA4A7C00AA44BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2977FAA919DA4A7C00AA44BD /* iCal */,
+				2977FAB419DA4A7C00AA44BD /* iCalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2977FAB319DA4A7C00AA44BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2977FAA619DA4A7C00AA44BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2977FB5019DA7A6C00AA44BD /* NSTimeZone+iCal.m in Sources */,
+				2977FB0C19DA59C100AA44BD /* icalderivedparameter.c in Sources */,
+				2977FB0919DA59C100AA44BD /* icalarray.c in Sources */,
+				2977FB4C19DA7A4600AA44BD /* NSDate+iCal.m in Sources */,
+				2977FB1619DA59C100AA44BD /* icalparameter_cxx.cpp in Sources */,
+				2977FB1C19DA59C100AA44BD /* icalrestriction.c in Sources */,
+				2977FB2319DA59C100AA44BD /* libicals_w32_vsnprintf_replacement.c in Sources */,
+				2977FB1819DA59C100AA44BD /* icalperiod.c in Sources */,
+				2977FB0819DA59C100AA44BD /* caldate.c in Sources */,
+				2977FB1119DA59C100AA44BD /* icalerror.c in Sources */,
+				2977FB2619DA59C100AA44BD /* vcomponent.cpp in Sources */,
+				2977FB0F19DA59C100AA44BD /* icalduration.c in Sources */,
+				2977FB1719DA59C100AA44BD /* icalparser.c in Sources */,
+				2977FB1319DA59C100AA44BD /* icalmemory.c in Sources */,
+				2977FB2419DA59C100AA44BD /* pvl.c in Sources */,
+				2977FB1E19DA59C100AA44BD /* icaltimezone.c in Sources */,
+				2977FB1D19DA59C100AA44BD /* icaltime.c in Sources */,
+				2977FB0E19DA59C100AA44BD /* icalderivedvalue.c in Sources */,
+				2977FB2119DA59C100AA44BD /* icalvalue.c in Sources */,
+				2977FB2019DA59C100AA44BD /* icaltz-util.c in Sources */,
+				2977FB0A19DA59C100AA44BD /* icalattach.c in Sources */,
+				2977FB1019DA59C100AA44BD /* icalenums.c in Sources */,
+				2977FB1A19DA59C100AA44BD /* icalproperty_cxx.cpp in Sources */,
+				2977FB1B19DA59C100AA44BD /* icalrecur.c in Sources */,
+				2977FB1419DA59C100AA44BD /* icalmime.c in Sources */,
+				2977FB0D19DA59C100AA44BD /* icalderivedproperty.c in Sources */,
+				2977FB2219DA59C100AA44BD /* icalvalue_cxx.cpp in Sources */,
+				2977FB2519DA59C100AA44BD /* sspm.c in Sources */,
+				2977FB0B19DA59C100AA44BD /* icalcomponent.c in Sources */,
+				2977FB1919DA59C100AA44BD /* icalproperty.c in Sources */,
+				2977FB1519DA59C100AA44BD /* icalparameter.c in Sources */,
+				2977FB1F19DA59C100AA44BD /* icaltypes.c in Sources */,
+				2977FB1219DA59C100AA44BD /* icallangbind.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2977FAB119DA4A7C00AA44BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2977FAB919DA4A7C00AA44BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2977FABA19DA4A7C00AA44BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2977FABC19DA4A7C00AA44BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_CONFIG_H=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2977FABD19DA4A7C00AA44BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "HAVE_CONFIG_H=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2977FABF19DA4A7C00AA44BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2977FAC019DA4A7C00AA44BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2977FAA519DA4A7C00AA44BD /* Build configuration list for PBXProject "iCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2977FAB919DA4A7C00AA44BD /* Debug */,
+				2977FABA19DA4A7C00AA44BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2977FABB19DA4A7C00AA44BD /* Build configuration list for PBXNativeTarget "iCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2977FABC19DA4A7C00AA44BD /* Debug */,
+				2977FABD19DA4A7C00AA44BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2977FABE19DA4A7C00AA44BD /* Build configuration list for PBXNativeTarget "iCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2977FABF19DA4A7C00AA44BD /* Debug */,
+				2977FAC019DA4A7C00AA44BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2977FAA219DA4A7C00AA44BD /* Project object */;
+}
