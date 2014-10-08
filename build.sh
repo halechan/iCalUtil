@@ -1,4 +1,10 @@
 #!/bin/bash -
+#
+#  build.sh
+#
+#  Created by Hale Chan on 14-9-30.
+#  Copyright (c) 2014年 Papaya Mobile Inc. All rights reserved.
+#
 
 if [ -d iCalUtil.framework ] ; then
 	rm -rf iCalUtil.framework
