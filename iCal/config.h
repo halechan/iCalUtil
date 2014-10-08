@@ -177,3 +177,5 @@ typedef int pid_t;
 #else
 #define _unused(x)
 #endif
+
+#define PACKAGE_DATA_DIR "/usr/share"

@@ -67,6 +67,7 @@
 		2977FB4F19DA7A6C00AA44BD /* NSTimeZone+iCal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FB4D19DA7A6C00AA44BD /* NSTimeZone+iCal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2977FB5019DA7A6C00AA44BD /* NSTimeZone+iCal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2977FB4E19DA7A6C00AA44BD /* NSTimeZone+iCal.m */; };
 		2977FB5319DA7C5D00AA44BD /* iCalUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2977FB5119DA7C5D00AA44BD /* iCalUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2982FFDF19E4DF020077410D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2982FFDE19E4DF020077410D /* config.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -154,12 +155,12 @@
 		2977FB0519DA59C100AA44BD /* vcomponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vcomponent.cpp; sourceTree = "<group>"; };
 		2977FB0619DA59C100AA44BD /* vcomponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vcomponent.h; sourceTree = "<group>"; };
 		2977FB0719DA59C100AA44BD /* vsnprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vsnprintf.h; sourceTree = "<group>"; };
-		2977FB2719DA5A2A00AA44BD /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		2977FB4919DA7A4600AA44BD /* NSDate+iCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+iCal.h"; sourceTree = "<group>"; };
 		2977FB4A19DA7A4600AA44BD /* NSDate+iCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+iCal.m"; sourceTree = "<group>"; };
 		2977FB4D19DA7A6C00AA44BD /* NSTimeZone+iCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+iCal.h"; sourceTree = "<group>"; };
 		2977FB4E19DA7A6C00AA44BD /* NSTimeZone+iCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+iCal.m"; sourceTree = "<group>"; };
 		2977FB5119DA7C5D00AA44BD /* iCalUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalUtil.h; sourceTree = "<group>"; };
+		2982FFDE19E4DF020077410D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +202,7 @@
 		2977FAAC19DA4A7C00AA44BD /* iCal */ = {
 			isa = PBXGroup;
 			children = (
+				2982FFDE19E4DF020077410D /* config.h */,
 				2977FAC219DA59C100AA44BD /* src */,
 				2977FB4919DA7A4600AA44BD /* NSDate+iCal.h */,
 				2977FB4A19DA7A4600AA44BD /* NSDate+iCal.m */,
@@ -230,7 +232,6 @@
 		2977FAC219DA59C100AA44BD /* src */ = {
 			isa = PBXGroup;
 			children = (
-				2977FB2719DA5A2A00AA44BD /* config.h */,
 				2977FAC319DA59C100AA44BD /* astime.h */,
 				2977FAC419DA59C100AA44BD /* caldate.c */,
 				2977FAC519DA59C100AA44BD /* ical.h */,
@@ -338,6 +339,7 @@
 				2977FB2E19DA616300AA44BD /* icalderivedproperty.h in Headers */,
 				2977FB5319DA7C5D00AA44BD /* iCalUtil.h in Headers */,
 				2977FB2D19DA615D00AA44BD /* icalderivedparameter.h in Headers */,
+				2982FFDF19E4DF020077410D /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +558,11 @@
 					"HAVE_CONFIG_H=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -566,6 +573,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = "HAVE_CONFIG_H=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

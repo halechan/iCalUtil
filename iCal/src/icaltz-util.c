@@ -23,7 +23,6 @@
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
-
 #include "icaltimezone.h"
 #include <string.h>
 

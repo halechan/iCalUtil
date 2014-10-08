@@ -18,7 +18,7 @@
 /*#line 7 "icalrestriction.c.in"*/
 
 #ifdef HAVE_CONFIG_H
-#include "config.h"
+#include <config.h>
 #endif
 
 #include "icalrestriction.h"
