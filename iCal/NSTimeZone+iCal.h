@@ -48,3 +48,8 @@
 - (icaltimezone *)iCalTimeZone;
 
 @end
+
+static inline icaltimezone * iCalTimeZoneFromNSTimeZone(NSTimeZone *timeZone)
+{
+    return timeZone ? [timeZone iCalTimeZone] : [[NSTimeZone defaultTimeZone] iCalTimeZone];
+}
