@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2909E23D1A47B818006F8A03 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2909E23C1A47B817006F8A03 /* EventKit.framework */; };
+		2909E2411A47C9A0006F8A03 /* libiCal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2977FAAA19DA4A7C00AA44BD /* libiCal.a */; };
+		2909E2441A481433006F8A03 /* TimeZoneConvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2909E2431A481433006F8A03 /* TimeZoneConvertTests.m */; };
+		29348A311A43C834003FA56B /* NSDate+iCalendarPropertyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 29348A2F1A43C834003FA56B /* NSDate+iCalendarPropertyValue.h */; };
+		29348A321A43C834003FA56B /* NSDate+iCalendarPropertyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 29348A301A43C834003FA56B /* NSDate+iCalendarPropertyValue.m */; };
+		29348A341A43CCAA003FA56B /* iCalendarPropertyValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29348A331A43CCAA003FA56B /* iCalendarPropertyValueTests.m */; };
+		29348A3B1A43D4C0003FA56B /* NSDate+TimeZoneConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = 29348A391A43D4C0003FA56B /* NSDate+TimeZoneConvert.h */; };
+		29348A3C1A43D4C0003FA56B /* NSDate+TimeZoneConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 29348A3A1A43D4C0003FA56B /* NSDate+TimeZoneConvert.m */; };
 		2977FB0819DA59C100AA44BD /* caldate.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAC419DA59C100AA44BD /* caldate.c */; };
 		2977FB0919DA59C100AA44BD /* icalarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAC619DA59C100AA44BD /* icalarray.c */; };
 		2977FB0A19DA59C100AA44BD /* icalattach.c in Sources */ = {isa = PBXBuildFile; fileRef = 2977FAC819DA59C100AA44BD /* icalattach.c */; };
@@ -70,6 +78,16 @@
 		2982FFDF19E4DF020077410D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2982FFDE19E4DF020077410D /* config.h */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2909E23F1A47C92F006F8A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2977FAA219DA4A7C00AA44BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2977FAA919DA4A7C00AA44BD;
+			remoteInfo = iCal;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		2977FAA819DA4A7C00AA44BD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -83,6 +101,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2909E23C1A47B817006F8A03 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		2909E2431A481433006F8A03 /* TimeZoneConvertTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeZoneConvertTests.m; sourceTree = "<group>"; };
+		29348A2F1A43C834003FA56B /* NSDate+iCalendarPropertyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+iCalendarPropertyValue.h"; sourceTree = "<group>"; };
+		29348A301A43C834003FA56B /* NSDate+iCalendarPropertyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+iCalendarPropertyValue.m"; sourceTree = "<group>"; };
+		29348A331A43CCAA003FA56B /* iCalendarPropertyValueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCalendarPropertyValueTests.m; sourceTree = "<group>"; };
+		29348A391A43D4C0003FA56B /* NSDate+TimeZoneConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeZoneConvert.h"; sourceTree = "<group>"; };
+		29348A3A1A43D4C0003FA56B /* NSDate+TimeZoneConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeZoneConvert.m"; sourceTree = "<group>"; };
 		2977FAAA19DA4A7C00AA44BD /* libiCal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiCal.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2977FAB519DA4A7C00AA44BD /* iCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2977FAB819DA4A7C00AA44BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -175,6 +200,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2909E2411A47C9A0006F8A03 /* libiCal.a in Frameworks */,
+				2909E23D1A47B818006F8A03 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +211,7 @@
 		2977FAA119DA4A7C00AA44BD = {
 			isa = PBXGroup;
 			children = (
+				2909E23C1A47B817006F8A03 /* EventKit.framework */,
 				2977FAAC19DA4A7C00AA44BD /* iCal */,
 				2977FAB619DA4A7C00AA44BD /* iCalTests */,
 				2977FAAB19DA4A7C00AA44BD /* Products */,
@@ -208,6 +236,10 @@
 				2977FB4A19DA7A4600AA44BD /* NSDate+iCal.m */,
 				2977FB4D19DA7A6C00AA44BD /* NSTimeZone+iCal.h */,
 				2977FB4E19DA7A6C00AA44BD /* NSTimeZone+iCal.m */,
+				29348A2F1A43C834003FA56B /* NSDate+iCalendarPropertyValue.h */,
+				29348A301A43C834003FA56B /* NSDate+iCalendarPropertyValue.m */,
+				29348A391A43D4C0003FA56B /* NSDate+TimeZoneConvert.h */,
+				29348A3A1A43D4C0003FA56B /* NSDate+TimeZoneConvert.m */,
 				2977FB5119DA7C5D00AA44BD /* iCalUtil.h */,
 			);
 			path = iCal;
@@ -217,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				2977FAB719DA4A7C00AA44BD /* Supporting Files */,
+				29348A331A43CCAA003FA56B /* iCalendarPropertyValueTests.m */,
+				2909E2431A481433006F8A03 /* TimeZoneConvertTests.m */,
 			);
 			path = iCalTests;
 			sourceTree = "<group>";
@@ -314,6 +348,7 @@
 			files = (
 				2977FB2919DA605C00AA44BD /* ical.h in Headers */,
 				2977FB2B19DA607900AA44BD /* icalattach.h in Headers */,
+				29348A311A43C834003FA56B /* NSDate+iCalendarPropertyValue.h in Headers */,
 				2977FB2A19DA606E00AA44BD /* icalarray.h in Headers */,
 				2977FB2C19DA614900AA44BD /* icalcomponent.h in Headers */,
 				2977FB3419DA628E00AA44BD /* icalmemory.h in Headers */,
@@ -339,6 +374,7 @@
 				2977FB2E19DA616300AA44BD /* icalderivedproperty.h in Headers */,
 				2977FB5319DA7C5D00AA44BD /* iCalUtil.h in Headers */,
 				2977FB2D19DA615D00AA44BD /* icalderivedparameter.h in Headers */,
+				29348A3B1A43D4C0003FA56B /* NSDate+TimeZoneConvert.h in Headers */,
 				2982FFDF19E4DF020077410D /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +411,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2909E2401A47C92F006F8A03 /* PBXTargetDependency */,
 			);
 			name = iCalTests;
 			productName = iCalTests;
@@ -444,6 +481,7 @@
 				2977FB2619DA59C100AA44BD /* vcomponent.cpp in Sources */,
 				2977FB0F19DA59C100AA44BD /* icalduration.c in Sources */,
 				2977FB1719DA59C100AA44BD /* icalparser.c in Sources */,
+				29348A3C1A43D4C0003FA56B /* NSDate+TimeZoneConvert.m in Sources */,
 				2977FB1319DA59C100AA44BD /* icalmemory.c in Sources */,
 				2977FB2419DA59C100AA44BD /* pvl.c in Sources */,
 				2977FB1E19DA59C100AA44BD /* icaltimezone.c in Sources */,
@@ -452,6 +490,7 @@
 				2977FB2119DA59C100AA44BD /* icalvalue.c in Sources */,
 				2977FB2019DA59C100AA44BD /* icaltz-util.c in Sources */,
 				2977FB0A19DA59C100AA44BD /* icalattach.c in Sources */,
+				29348A321A43C834003FA56B /* NSDate+iCalendarPropertyValue.m in Sources */,
 				2977FB1019DA59C100AA44BD /* icalenums.c in Sources */,
 				2977FB1A19DA59C100AA44BD /* icalproperty_cxx.cpp in Sources */,
 				2977FB1B19DA59C100AA44BD /* icalrecur.c in Sources */,
@@ -471,10 +510,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2909E2441A481433006F8A03 /* TimeZoneConvertTests.m in Sources */,
+				29348A341A43CCAA003FA56B /* iCalendarPropertyValueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2909E2401A47C92F006F8A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2977FAA919DA4A7C00AA44BD /* iCal */;
+			targetProxy = 2909E23F1A47C92F006F8A03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2977FAB919DA4A7C00AA44BD /* Debug */ = {
@@ -597,6 +646,12 @@
 				);
 				INFOPLIST_FILE = iCalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -610,6 +665,12 @@
 				);
 				INFOPLIST_FILE = iCalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
